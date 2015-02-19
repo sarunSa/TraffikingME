@@ -1,0 +1,12 @@
+C:\Users\ultraguy\Documents\demo_game\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\ultraguy\Documents\demo_game\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\ultraguy\Documents\demo_game\Temp\bin\Debug\UnityEditor.dll
+C:\Users\ultraguy\Documents\demo_game\Temp\bin\Debug\UnityEngine.dll
+C:\Users\ultraguy\Documents\demo_game\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\ultraguy\Documents\demo_game\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\ultraguy\Documents\demo_game\Temp\bin\Debug\nunit.framework.dll
+C:\Users\ultraguy\Documents\demo_game\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\ultraguy\Documents\demo_game\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\ultraguy\Documents\demo_game\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\ultraguy\Documents\demo_game\obj\Debug\Assembly-CSharp.dll
+C:\Users\ultraguy\Documents\demo_game\obj\Debug\Assembly-CSharp.pdb
