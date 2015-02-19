@@ -54,7 +54,11 @@
      <Compile Include="Assets\SampleAssets\2D\Scripts\DoorEnter.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\DoorLadder.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\EnemyScript.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\EventHanding.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\Joystick.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Quest.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\QuestManager.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\SceneOnLoad.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\box.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\ladder.cs" />
