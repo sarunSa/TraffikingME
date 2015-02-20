@@ -565,6 +565,7 @@ MonoBehaviour:
   maxNormalCoundownE: 20
   stopMoveCoundownE: 5
   isStun: 0
+  isStunE: 0
 --- !u!1 &127078859
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,6 +630,7 @@ GameObject:
   - 124: {fileID: 128650251}
   - 81: {fileID: 128650250}
   - 114: {fileID: 128650255}
+  - 114: {fileID: 128650256}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -716,6 +718,22 @@ MonoBehaviour:
   target: {fileID: 123241978}
   minXY: {x: -5, y: -5.69999981}
   maxXY: {x: 24.5799999, y: 7.53999996}
+--- !u!114 &128650256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 128650249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da90cd33001dcdc41b9460002fcf2d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameTime: 0
+  isAlert: 0
+  timeAlertEnd: 5
+  alertTime: 0
+  eventHandling: {fileID: 0}
 --- !u!1 &179002190
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,7 +911,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 219209372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.6499996, y: -3.70000005, z: 0}
+  m_LocalPosition: {x: 28.6499996, y: -3.70000005, z: -.100000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1300,7 +1318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &590379624
 Animator:
   serializedVersion: 3
@@ -1733,7 +1751,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &834316354
 MonoBehaviour:
   m_ObjectHideFlags: 0

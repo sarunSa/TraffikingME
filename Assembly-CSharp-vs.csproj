@@ -47,24 +47,35 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\SampleAssets\2D\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\CharacterController.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\CharacterDetail.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\CharacterEmotion.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Character\CharacterController.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Character\CharacterDetail.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Character\CharacterEmotion.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Character\EnemyScript.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Character\tapHelp.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Character\victim.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\CheckMap.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\Corpse.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\DoorEnter.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\DoorLadder.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\EnemyScript.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\EventHanding.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController\BossQuest.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController\EventHanding.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController\FindingQuest.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController\GameController.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController\HelpingQuest.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController\MapQuest.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController\Quest.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\GameController\QuestManager.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\Joystick.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\Quest.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\QuestManager.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\SceneOnLoad.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\box.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Thing\CheckThing.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Thing\Document.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Thing\QuestItem.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Thing\SoundAttraction.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Thing\Thing.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Thing\ThingManager.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Thing\box.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Thing\tappopup.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\ladder.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\tapHelp.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\tappopup.cs" />
-     <Compile Include="Assets\SampleAssets\2D\Scripts\victim.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
