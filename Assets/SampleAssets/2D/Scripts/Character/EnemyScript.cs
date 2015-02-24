@@ -37,6 +37,11 @@ public class EnemyScript : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player");
         sprite = GetComponent<SpriteRenderer>();
         radarVector = new Vector2(-1, 1);
+        GameObject[] friend = GameObject.FindGameObjectsWithTag("enemy");
+        for (int i = 0; i < friend.Length; i++)
+        {
+            Physics2D.IgnoreCollision(gameObject.collider2D, friend[i].collider2D);
+        }
 	}
 	
 	// Update is called once per frame
